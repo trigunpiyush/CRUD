@@ -47,12 +47,14 @@ To Create Boxes
 http http://127.0.0.1:8000/boxes/create/ 
 Update dimensions of a box with a given id
 http PUT  http://127.0.0.1:8000/boxes/update/int:id/  'provide integer at "int:id" '
+eg. -  http://127.0.0.1:8000/boxes/update/1/
 List Of All Boxes
 http GET http://127.0.0.1:8000/boxes/list/ 
 List my boxes
 http PATCH http://127.0.0.1:8000/api/my_boxes/ 
 Delete a box with a given id:
 http DELETE http://127.0.0.1:8000/boxes/delete/int:id/  'provide integer at "int:id" '
+eg. -  http://127.0.0.1:8000/boxes/delete/1/
 ```
 
 ```
